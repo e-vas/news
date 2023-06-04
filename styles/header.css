@@ -107,7 +107,7 @@ justify-content: space-between;
 
 
     background-color: #ffffff00;
-    background-image: url(https://psv4.userapi.com/c237031/u262996293/docs/d21/0f475e4db94b/cloudy.png?extra=ajfj7lOgv0uhKQlMKeM_Vt2bK1D2BDAo0v5jJpByFi0OAvbqrZNcXGYpEzClmFOEAW8NzFSmwjzmad1Dvk60yUZ9MUndkFBb-VW1rnEKqeJPDDi6f8SKPT_O5Yfwb1AZ2kIQFB3Uy9uL64GoofDfUjvu);
+    background-image: url(../images/cloudy.png);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -141,6 +141,7 @@ justify-content: space-between;
     background-image: url(../images/RoundedRectangle3.png);
 
     background-repeat: no-repeat;
+    
     
 }
 
