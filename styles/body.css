@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@0,300;0,500;1,300&family=Roboto:wght@300&family=Wix+Madefor+Display:wght@500&display=swap');
+
+
+/*Main*/
+body {
+    background: #e6e7e9;
+    color: #010202;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Wix Madefor Display', sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+::-webkit-search-decoration, 
+input[type='search']::-webkit-search-cancel-button, 
+input[type='search']::-webkit-search-results-button, 
+input[type='search']::-webkit-search-results-decoration {
+	display: none;
+}
+
+/*Header and Footer main styles*/
+
+.header-position {
+    padding: 20px 15%;
+}
+
+.footer-position {
+    padding: 30px 15%;
+    
+}
+
+.headerline-footer-color{
+    background-color: #0c1c2c;
+    color: #e1e2e4;
+}
+
+.header-style {
+    background-color: #fdfdfd;
+    color: #010202;
+}
+
+body main {
+    margin: 10px 15%;
+    border: solid #0f141e 1px;
+}
+

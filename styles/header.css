@@ -1,0 +1,223 @@
+
+/* Header styles */
+
+h1 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.fresh-news-line{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 20px 15%;
+    
+}
+
+/* fresh news underline */
+.fresh-news-link {
+    text-decoration: none;
+    text-decoration: underline;
+	color: inherit;
+}
+
+/*info header container */
+
+.info-header {
+     margin: 0;
+     padding: 0;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: space-between;
+}
+
+
+
+/* Новостное агенство*/
+
+.news-agency {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: auto 30px auto 0;
+    padding: auto;
+    height: 46PX;
+    width: 120px;
+    background-color: none;
+    background-image: url(../images/logoo.png); 
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+}
+
+
+/* Выбранный город */
+
+.city {
+margin: auto;
+padding: auto;
+display: inline-flex;
+flex-flow: row wrap;
+justify-content: space-between;
+
+}
+
+
+.change-city-button {
+    padding-right: 20px;
+    border: none; 
+    background-size: contain;
+    background-size: 20px;
+
+    background-color: #ffffff00;
+    background-image: url(https://icons.veryicon.com/png/o/miscellaneous/simple-and-round-line-mark/down-arrow-56.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    
+
+    color: #4a73bd;
+    border-bottom: dashed #4a73bd 1px;  
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.img-change-city{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+/*Погода  */
+.weathel {
+    margin: auto 30px auto auto;
+    
+    padding-right: 35px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+
+
+    background-color: #ffffff00;
+    background-image: url(https://psv4.userapi.com/c237031/u262996293/docs/d21/0f475e4db94b/cloudy.png?extra=ajfj7lOgv0uhKQlMKeM_Vt2bK1D2BDAo0v5jJpByFi0OAvbqrZNcXGYpEzClmFOEAW8NzFSmwjzmad1Dvk60yUZ9MUndkFBb-VW1rnEKqeJPDDi6f8SKPT_O5Yfwb1AZ2kIQFB3Uy9uL64GoofDfUjvu);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+
+
+/* Search */
+
+.search-style{
+    margin: auto 0 auto auto;
+    padding: auto;
+    display: inline-flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+}    
+
+.search-input {
+ 
+    background-color: #ffffff00;
+    border: none;
+    padding: 0 15px;
+    
+    background-size: 300px;
+    height: 40px;
+    width: 300px;
+    color: #292b2b;
+    font-size:15px; resize:none;
+    
+    background-image: url(../images/RoundedRectangle3.png);
+
+    background-repeat: no-repeat;
+    
+}
+
+.search-input :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+    
+}
+
+
+/*Кнопка поиска */
+
+.search-button{
+    border: none;
+    width: 25px;
+    margin: 0;
+    padding: 0;
+
+    position: relative; 
+    
+    top: 12px;
+    right: 40px;
+
+    cursor: pointer;
+
+    background-color: #ffffff00;
+    background-size: auto;
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+
+}
+
+
+
+/* list navigation style */
+
+.ul-style {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /*margin: 3;*/
+    padding: 0;
+    
+    
+}
+
+/* navigation item style*/
+
+.ul-style li {
+    list-style-type: none;
+    cursor: pointer;  
+    margin: 0;
+    padding: 0;     
+}
+
+.ul-style a {
+
+    text-decoration: none;
+    color: #010202;
+
+}
+
+
+/*
+.ul-style li + li ::before {
+    content: " / ";
+    color: #5751517e;
+    cursor: default ;  
+
+    margin-right: 15px;
+    
+}
+*/
+
+.space {
+    flex-grow: 1!important;
+}
+
+
+
