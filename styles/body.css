@@ -22,21 +22,20 @@ input[type='search']::-webkit-search-results-decoration {
 
 /*Header and Footer main styles*/
 
-.header-position {
+.header_position {
     padding: 20px 15%;
 }
 
-.footer-position {
+.footer_position {
     padding: 30px 15%;
-    
 }
 
-.headerline-footer-color{
+.headerline-footer_color{
     background-color: #0c1c2c;
     color: #e1e2e4;
 }
 
-.header-style {
+.header_color {
     background-color: #fdfdfd;
     color: #010202;
 }
