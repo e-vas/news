@@ -10,12 +10,11 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="icon" href="images/internet.png" type="image/x-icon">
-
 </head>
 <body>
     <header>
         <!-- полоска хедера -->
-        <div class="headerline-footer_color  "> 
+        <div class="headerline-footer_color  space-bottom-30"> 
             <div class="fixed-container page-title">
                 <h1 class="page-title__header "> Самые 
                     <a href="" class="page-title__header__link">свежие новости</a> в реальном времени 
@@ -24,16 +23,16 @@
        
             </div>
         </div>
-        <div class="header_color"> 
+        <div class="header_color space-top-30"> 
             <!-- лого, москва, погода, поиск -->
-            <div class="header-content fixed-container"> 
+            <div class="header-content fixed-container "> 
                 <!-- лого-->
                 <a href="" class="header-content__logo">
                 </a>
                 <!-- москва -->
                 <div class="header-content__city">                     
                     <button class="header-content__city__change-button"> 
-                        Москва
+                        <span class="header-content__city__change-button_border-stye">Москва</span>
                     </button>
                 </div>
                 <!--   -->    
@@ -41,7 +40,7 @@
                 </div>
                 <!-- погода -->
                 <a href="" class="header-content__weathel">
-                    +33 &#8451;
+                    +33 &#8451
                 </a>  
                 
                 <!-- поиск -->
@@ -54,7 +53,7 @@
         
         
             <!-- навигация по темам в шапке -->
-            <nav>
+            <nav class="space-bottom-45 space-top-30">
                 <ul class="menu fixed-container">
                     <li>
                         <a href="">Главная</a>
@@ -88,19 +87,17 @@
             </nav> 
         </div>
     </header>
-    <main class="fixed-container"> 
+    <main class="fixed-container "> 
         <!-- Блок из трех колонок-->
-        <div>
-
-        
+        <div class="three-columns-content">
             <!-- левая колонка "новости дня" -->
-            <section>
+            <section class="side-columns-size content-background-color">
                 <h2> Новости дня </h2>
                 <ul class="list-style-reset"> 
                     <li>
                         <article>
                             <a href="">
-                                <h3>Не берите кота Овна: астрологи составили кошачий гороскоп, он расскажет все о повадка</h3>
+                                <h3>Не берите кота Овна: астрологи составили кошачий гороскоп, он расскажет все о повадках</h3>
                             </a>
                             <a href="">/ Гороскоп</a>
                                 <time datetime="2018-06-06T10:48">
@@ -184,7 +181,7 @@
             </section>
 
             <!-- центральная колонка новостей -->
-            <section>
+            <section class="main-column content-background-color">
 
                 <!-- блоки с новостями -->
                 <ul class="list-style-reset ">
@@ -259,7 +256,7 @@
                 </ul>
             </section>  
             <!-- права колонка с рекламой -->
-            <aside>
+            <aside class="side-columns-size content-background-color">
                 <ul class="list-style-reset ">
                     <li>                
                         <a href="">
@@ -279,7 +276,7 @@
 
         </div>
         <!-- нижний блок новостей -->
-        <section>
+        <section class="content-background-color">
             <!-- большой баннер с новостью -->
             <a href="">
                 <span>/ Политика</span>

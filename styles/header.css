@@ -3,21 +3,23 @@
 
 
 .page-title{
-    margin: 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    height: 40px;
+    
 }
 
 .page-title__header {
     font-size: 16px;
-    margin: 0;
-    padding: 0;
+    margin: auto auto auto 0;
+    padding: auto;
 }
 
 .page-title__time {
     font-size: 16px;
-    
+    margin: auto 0 auto auto;
+    padding: auto;
 }
 
 
@@ -32,7 +34,7 @@
 /*info header container */
 
 .header-content {
-    margin: 0;
+    margin: 0; 
     padding: 0; 
     display: flex;
     flex-flow: row wrap;
@@ -81,59 +83,66 @@ justify-content: space-between;
     
 
     color: #4a73bd;
-    border-bottom: dashed #4a73bd 1px;  
+    
     font-size: 16px;
     cursor: pointer;
 }
 
+.header-content__city__change-button_border-stye{
+    border-bottom: dashed #4a73bd 1px;  
+}
 
 /*Погода  */
 .header-content__weathel {
     margin: auto 30px auto auto;
+    padding-left:  30px ;
     
-    padding-right: 35px;
-    display: inline-flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
     color: gray;
     cursor: pointer;
     text-decoration: none;
-
+    
+    
 
     background-color: #ffffff00;
     background-image: url(../images/cloudy.png);
-    background-position: right center;
+    background-position: left;
     background-repeat: no-repeat;
-    background-size: contain;  
+    background-size: contain;
+    
 }
 
 
 
 /* Search */
 
-.header-content_search-{
+.header-content_search {
     margin: auto 0 auto auto;
-    padding: auto;
-    display: inline-flex;
-    flex-flow: row wrap;
-    box-sizing: border-box;
+    position: relative;
+    
+
+    
 }    
 
 .header-content__search__input {
  
     background-color: #ffffff00;
     border: none;
-    /*padding: 0 15px;*/
+    padding-left: 15px;
+
     
     background-size: 300px;
-    height: 40px;
+    height: 36px;
+    
     width: 300px;
     color: #292b2b;
-    font-size:15px; resize:none;
-    
-    background-image: url(../images/RoundedRectangle3.png);
+    font-size:14px; resize:none;
+    background-color: #bdbaba4f;
+    border-radius: 25px;
 
-    background-repeat: no-repeat;
+
 }
 
 .header-content__search__input :active, :hover, :focus {
@@ -146,21 +155,23 @@ justify-content: space-between;
 
 .header-content__search__button{
     border: none;
-    width: 25px;
-    margin: 0;
-    padding: 0;
+    width: 16px;
+    height: 16px;
+    margin: 0px;
+    padding: 0px;
 
-    position: relative; 
-    
-    top: 12px;
-    right: 40px;
+
+    position: absolute;
+    top: 10px;
+    right: 20px;
 
     cursor: pointer;
 
     background-color: #ffffff00;
-    background-size: auto;
     background-image: url(../images/search.png);
     background-repeat: no-repeat;
+    background-size: contain;
+    
 }
 
 
@@ -181,7 +192,8 @@ justify-content: space-between;
     list-style-type: none;
     cursor: pointer;  
     margin: 0;
-    padding: 0;     
+    padding: 0;
+    position: relative;     
 }
 
 
@@ -190,21 +202,47 @@ justify-content: space-between;
 
     text-decoration: none;
     color: #010202;
-    
+    font-size: 16px;
+    margin-left: 15px;
     
 }
 
 /*
 
-.ul-style li + li ::before {
-    content: " / ";
-    color: #5751517e;
-    cursor: default ;  
+.menu li + li ::before {
+    content: "";
+    padding-right: 20px;
 
-    margin-right: 15px;
-    
+    background-size: contain;
+    background-image: url(../images/slesh.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    cursor: default;
+   
 }
+
 */
+
+
+.menu li  ::after{
+    content: "";
+    padding-right: 30px;
+
+    background-size: contain;
+    background-image: url(../images/slesh.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: default;
+}
+
+
+
+.menu li :last-child {
+    content: "";
+    background-image: url();
+    padding: 0;
+}   
+
 
 .space {
     flex-grow: 1!important;
