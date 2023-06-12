@@ -203,9 +203,14 @@ justify-content: space-between;
     text-decoration: none;
     color: #010202;
     font-size: 16px;
-    margin-left: 15px;
+    
     
 }
+
+.menu a :not(:first-child){
+    margin-left: 15px;
+}
+
 
 /*
 
@@ -233,8 +238,8 @@ justify-content: space-between;
     background-repeat: no-repeat;
     background-position: right;
     cursor: default;
+    flex-grow: 1!important;
 }
-
 
 
 .space {
