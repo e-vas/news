@@ -207,12 +207,13 @@ justify-content: space-between;
     
 }
 
+/* отступы для вариант разделителей 2 */
 .menu a :not(:first-child){
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 
-/*
+/* вариант разделителей 1
 
 .menu li + li ::before {
     content: "";
@@ -228,6 +229,7 @@ justify-content: space-between;
 
 */
 
+/*вариант разделителей 2*/
 
 .menu li:not(:last-child)::after{
     content: "";
@@ -238,8 +240,10 @@ justify-content: space-between;
     background-repeat: no-repeat;
     background-position: right;
     cursor: default;
-    flex-grow: 1!important;
 }
+
+
+
 
 
 .space {
