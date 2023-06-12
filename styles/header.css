@@ -224,7 +224,7 @@ justify-content: space-between;
 */
 
 
-.menu li  ::after{
+.menu li:not(:last-child)::after{
     content: "";
     padding-right: 30px;
 
@@ -237,14 +237,16 @@ justify-content: space-between;
 
 
 
-.menu li :last-child {
-    content: "";
-    background-image: url();
-    padding: 0;
-}   
-
-
 .space {
     flex-grow: 1!important;
 }
 
+
+.space-bottom-45{
+    padding-bottom: 45px;
+
+}
+
+.space-top-30{
+    padding-top: 30px;
+}
