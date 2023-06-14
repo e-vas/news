@@ -43,14 +43,7 @@ input[type='search']::-webkit-search-results-decoration {
 
 
 body{
-   /* из PSB
-   background-color:#f9f9f9; */
-   background-color:#d8d6d6;
+   background: linear-gradient(#e4e4e4, #f7f7f7);
 }
 
 
-
-
-.test-blue-border {
-    border: solid blue 1px;
-}
