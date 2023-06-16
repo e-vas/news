@@ -7,26 +7,25 @@
     flex-flow: row wrap;
     justify-content: space-between;
     height: 40px;
-    
+    align-items: center; 
 }
 
 .page-title__header {
     font-size: 16px;
+    flex-grow: 1;
     margin: auto auto auto 0;
-    padding: auto;
 }
 
 .page-title__time {
     font-size: 16px;
-    margin: auto 0 auto auto;
-    padding: auto;
+    flex-grow: 1;
+    text-align: right;
 }
 
 
 
 /* fresh news underline */
 .page-title__header__link {
-    text-decoration: none;
     text-decoration: underline;
 	color: inherit;
 }
@@ -34,11 +33,10 @@
 /*info header container */
 
 .header-content {
-    margin: 0; 
-    padding: 0; 
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center; 
 }
 
 
@@ -49,8 +47,9 @@
     display: inline-flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    align-items: center; 
     cursor: pointer;
-    margin: auto 30px auto 0;
+    margin-right: 30px;
     height: 46PX;
     width: 120px;
     background-image: url(../images/logoo.png); 
@@ -62,8 +61,6 @@
 /* Выбранный город */
 
 .header-content__city {
-margin: auto;
-padding: auto;
 display: inline-flex;
 flex-flow: row wrap;
 justify-content: space-between;
@@ -81,9 +78,7 @@ justify-content: space-between;
     background-position: right center;
     background-repeat: no-repeat;
     
-
     color: #4a73bd;
-    
     font-size: 16px;
     cursor: pointer;
 }
@@ -94,17 +89,14 @@ justify-content: space-between;
 
 /*Погода  */
 .header-content__weathel {
-    margin: auto 30px auto auto;
+    margin-right: 30px;
     padding-left:  30px ;
-    
     height: 20px;
     line-height: 20px;
     font-size: 16px;
     color: gray;
     cursor: pointer;
     text-decoration: none;
-    
-    
 
     background-color: #ffffff00;
     background-image: url(../images/cloudy.png);
@@ -119,11 +111,9 @@ justify-content: space-between;
 /* Search */
 
 .header-content_search {
-    margin: auto 0 auto auto;
+    margin-right: 0;
     position: relative;
-    
-
-    
+ 
 }    
 
 .header-content__search__input {
@@ -181,7 +171,6 @@ justify-content: space-between;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 0; 
 
 }
 
@@ -198,7 +187,7 @@ justify-content: space-between;
     
     
 }
-
+/* СОХР
 .menu li:not(:last-child){
     background-size: contain;
     background-image: url(../images/slesh.png);
@@ -213,11 +202,31 @@ justify-content: space-between;
 .menu li:not(:first-child){
     margin-left: 20px;
 }
+*/
+
+.menu li{
+    background-size: contain;
+    background-image: url(../images/slesh.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: default;
+    padding-right: 20px;
+    margin-left: 20px;
+
+}
+.menu li:first-child{
+    margin-left: 0px;
+}
+
+.menu li:last-child{
+   background-image: none;
+   padding-right: 0;
+}
+
 
 
 .menu a {
 
-    text-decoration: none;
     color: #010202;
     font-size: 16px;    
 }
