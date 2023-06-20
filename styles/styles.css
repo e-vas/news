@@ -69,3 +69,44 @@ a {
 	justify-content: space-between;
 	align-items: center;
 }
+
+/* комментарии и время*/
+.news-comment{
+    text-align: right;
+    background-image: url(../images/chat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.news-time{
+    text-align: right;
+    flex-grow: 1;
+    padding-left: 14px;
+    background-image: url(../images/clock.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-y: 1px;
+    
+}
+
+.news-time_white-color{
+    text-align: right;
+    flex-grow: 1;
+    padding-left: 14px;
+    background-image: url(../images/Wclock.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-y: 1px;
+    
+}
+/*для большой картинки */
+.big-img-parent-position{
+	position: relative;
+}
+
+
+
+
+
