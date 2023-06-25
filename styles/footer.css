@@ -1,0 +1,132 @@
+.footer-columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.footer-columns__nav{
+    margin: 20px 0;
+}
+
+/*Колонка с навигацией */
+.footer-columns__nav__list{
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 130px;
+    width: 300px;
+}
+
+
+.footer-columns__nav__list__items{
+    line-height: 25px;
+    width: 40%;
+    font-size: 14px;
+}
+
+/* колонка об агентстве*/
+.footer-columns__about{
+    height: 130px;
+    width: 300px;
+    margin: 20px 0;
+}
+
+.footer-columns__about__items{
+    line-height: 25px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.footer-columns__about__items__logo{
+    height: 46PX;
+    width: 120px;
+    background-image: url(../images/logooW.png); 
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+
+
+/* колонка с контактами */
+.footer-columns__contacts{
+    height: 130px;
+    width: 300px;
+    margin: 20px 0;
+}
+
+.footer-columns__contacts_row{
+    display: flex;
+    flex-direction: row;
+    
+}
+ 
+/* соцсети */
+
+.footer-columns__contacts__social{
+    padding: 15px;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;  
+    margin: 0 5px;
+}
+
+.footer-columns__contacts__social_vk{
+    background-image: url(../images/vk.png); 
+    margin: 0 5px 0 0; 
+}
+
+.footer-columns__contacts__social_fb{
+    background-image: url(../images/fb.png); 
+}
+
+.footer-columns__contacts__social_tw{
+    background-image: url(../images/tw.png); 
+}
+
+.footer-columns__contacts__social_inst{
+    background-image: url(../images/inst.png); 
+}
+
+/*контакты */
+
+.footer-columns__contacts__tel{
+    margin-top: 40px ;
+    padding-left: 30px;
+    background-image: url(../images/call-answer.png); 
+    background-size: contain;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;  
+    font-size: 16px;
+}
+
+.footer-columns__contacts__mail{
+    margin-top: 20px ; 
+    padding-left: 30px;
+    background-image: url(../images/envelope.png); 
+    background-size: contain;
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat: no-repeat;  
+    font-size: 16px;
+}
+
+
+
+/* полоска копирайт*/
+
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    vertical-align: text-bottom;
+    height: 40px;
+
+}
+
+.footer-copyright_border{
+    border-top: solid rgba(255, 255, 255, 0.363) 1px;
+}

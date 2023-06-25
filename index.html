@@ -185,23 +185,23 @@
             <section class="main-column">
 
                 <!-- блоки с новостями -->
-                <ul class="list-style-reset main-column">
-                    <li>
+                <ul class="list-style-reset main-column__list">
+                    <li class="list-style-reset">
                     <!-- баннер с главной новостью -->
-                        <article class="big-img-parent-position">
-                            <img src="images\mainnews.png" alt="">
-                            <a href="" class="main-column_hashtag">/ Туризм</a>
-                            <a href="" class="main-column_title">
+                        <article class="big-img-parent-position main-column_size">
+                            <img src="images\mainnews.png" alt="" class="main-column__img">
+                            <a href="" class="main-column__hashtag">/ Туризм</a>
+                            <a href="" class="main-column__title">
                                 <h3> В Крыму готовятся к потоку туристов </h3>
                             </a>
-                            <time datetime="2018-06-06T10:48" class="main-column_date">
-                                <span class="main-column_date_space">6 Июня 2023</span>
+                            <time datetime="2018-06-06T10:48" class="main-column__date">
+                                <span class="main-column__date_space">6 Июня 2023</span>
                                 <span class="news-time news-time_white-color">10:48</span>
                             </time> 
                         </article>
                     </li> 
                     <!--остальные новости -->
-                    <li class=main-column_even-space>
+                    <li class= "main-column_even-space" >
                         <article>
                             <a href="">
                                 <img src="images/gotothesea.jpg" alt="">
@@ -279,22 +279,25 @@
         <!-- нижний блок новостей -->
         <section class="content-background-color bottom-block">
             <!-- большой баннер с новостью -->
-            <article href=""  class="bottom-block__big-banner big-img-parent-position">
-                <a href="" class="bottom-block__big-banner_hashtag">/ Политика</a>
-                <a href="">
-                    <img src="images\pekin.jpg" alt="Pekin">
-                    <h3 class="bottom-block__big-banner_title">
-                        Пекин обвинил Вашингтон в развязывании торговой войны
-                    </h3>
-                </a>
-                <time datetime="2018-06-06T10:48" class="bottom-block__big-banner_date">
-                    <span class="bottom-block__big-banner_date_space">6 Июня 2023</span>
-                    <span class="news-time_white-color">10:48</span>
-                </time>  
-                <p class="bottom-block__big-banner_text">
-                    Замминистра коммерции КНР Ван Шоувэнь назвал США "задирой" 
-                    и призвал "убрать пистолет" с целью сгладить ситуацию
-                </p>
+            <article href=""  class="bottom-block__big-banner">
+                <img src="images\pekin.jpg" alt="Pekin" class="bottom-block__big-banner__img">
+                <div class="bottom-block__big-banner__inside-img">
+                    <a href="" class="bottom-block__big-banner__inside-img__hashtag">/ Политика</a>
+                    <a href="">
+                        <h3 class="bottom-block__big-banner__inside-img__title">
+                            Пекин обвинил Вашингтон в развязывании торговой войны
+                        </h3>
+                    </a>
+                    <time datetime="2018-06-06T10:48" class="bottom-block__big-banner__inside-img__date">
+                        <span class="bottom-block__big-banner__inside-img__date_space">6 Июня 2023</span>
+                        <span class="news-time_white-color">10:48</span>
+                    </time>  
+                    <p class="bottom-block__big-banner__inside-img__text">
+                        Замминистра коммерции КНР Ван Шоувэнь назвал США "задирой" 
+                        и призвал "убрать пистолет" с целью сгладить ситуацию
+                    </p>
+                </div>                
+
             </article>
              
             <!--  список самых читаемых новостей -->
@@ -303,38 +306,45 @@
                     <ul class="list-style-reset bottom-block__most-read__items">
                         <li class="bottom-block__most-read__items">
                             <article>
-                                <a href="">
+                                <a href="" class="bottom-block__most-read__items_space ">
                                     <h3>Лавров в Кейптауне проводит переговоры с главой МИД Бразилии</h3>
-                                </a>    
-                                <a href="" class="bottom-block__most-read__items__hashtag">/ Политика</a>
-                                <time datetime="2018-06-06T11:39">
-                                    <span class="news-time bottom-block__most-read__items-time-space">11:39</span>
-                                </time>
-                                <span class="news-comment bottom-block__most-read__items__comment-space">25</span>
+                                </a> 
+                                <div>
+                                    <a href="" class="bottom-block__most-read__items__hashtag">/ Политика</a>
+                                    <time datetime="2018-06-06T11:39">
+                                        <span class="news-time bottom-block__most-read__items-time-space">11:39</span>
+                                    </time>
+                                    <span class="news-comment bottom-block__most-read__items__comment-space">25</span>
+                                </div>
+                                
                             </article>
                         </li>
                         <li class="bottom-block__most-read__items">
                             <article>
-                                <a href="">
+                                <a href="" class="bottom-block__most-read__items_space">
                                     <h3>В Москве проходит заседание трехсторонней рабочей группы России, Армении и Азербайджана</h3>
                                 </a>    
-                                <a href="" class="bottom-block__most-read__items__hashtag">/ Политика</a>
-                                <time datetime="2018-06-06T11:39">
-                                    <span class="news-time bottom-block__most-read__items-time-space">11:39</span>
-                                </time>
-                                <span class="news-comment bottom-block__most-read__items__comment-space">25</span>
+                                <div>
+                                    <a href="" class="bottom-block__most-read__items__hashtag">/ Политика</a>
+                                    <time   time datetime="2018-06-06T11:39">
+                                        <span class="news-time bottom-block__most-read__items-time-space">11:39</span>
+                                    </time>
+                                    <span class="news-comment bottom-block__most-read__items__comment-space">25</span>
+                                </div>
                             </article>
                         </li>
                         <li class="bottom-block__most-read__items">
                             <article>
-                                <a href="">
+                                <a href="" class="bottom-block__most-read__items_space">
                                     <h3>Очередное заседание Всемирного координационного совета состоится в Москве 14-15 июня</h3>
                                 </a>    
-                                <a href="" class="bottom-block__most-read__items__hashtag">/ Политика</a>
-                                <time datetime="2018-06-06T11:39">
-                                    <span class="news-time bottom-block__most-read__items-time-space">11:39</span>
-                                </time>
-                                <span class="news-comment bottom-block__most-read__items__comment-space">25</span>
+                                <div>
+                                    <a href="" class="bottom-block__most-read__items__hashtag">/ Политика</a>
+                                    <time datetime="2018-06-06T11:39">
+                                        <span class="news-time bottom-block__most-read__items-time-space">11:39</span>
+                                    </time>
+                                    <span class="news-comment bottom-block__most-read__items__comment-space">25</span>
+                                </div>
                             </article>
                         </li>
                     </ul>      
@@ -342,52 +352,52 @@
         </section>
     </main>
 
-    <footer class="headerline-footer_color">        
-        <div class="fixed-container">
+    <footer class="headerline-footer_color footer-copyright_border">        
+        <div class="fixed-container footer-columns">
             <!-- Список тематических разделов -->
-            <nav>
-                <ul class="list-style-reset ">
-                    <li>
+            <nav class="footer-columns__nav">
+                <ul class="list-style-reset footer-columns__nav__list">
+                    <li class="footer-columns__nav__list__items">
                         <a href="">
                             Главная
                         </a>
                     </li>
-                    <li>
+                    <li class="footer-columns__nav__list__items">
                         <a href="">
                             Политика
                         </a>
                     </li>
-                    <li>
+                    <li class="footer-columns__nav__list__items">
                         <a href="">
                             Общество
                         </a>
                     </li>
-                    <li>
+                    <li class="footer-columns__nav__list__items">
                         <a href="">
                             Экономика
                         </a>
                     </li>
-                    <li>
+                    <li class="footer-columns__nav__list__items">
                         <a href="">
                             В мире
                         </a>
                     </li>
-                    <li>
+                    <li class="footer-columns__nav__list__items">
                         <a href="">
                             Путешествия
                         </a>
                     </li>
-                    <li>
+                    <li class="footer-columns__nav__list__items">
                         <a href="">
                             Спорт
                         </a>
                     </li>
-                    <li>
+                    <li class="footer-columns__nav__list__items">
                         <a href="">
                             Наука
                         </a>
                     </li>
-                    <li>
+                    <li class="footer-columns__nav__list__items">
                         <a href="">
                             Туризм
                         </a>
@@ -395,62 +405,70 @@
                 </ul>
             </nav>
             <!-- Список инфо разделов и лого -->
-            <ul class="list-style-reset ">
-                <li>
-                    <a href="">
-                        news-agency logo
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Об агенстве
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Контакты
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        Опубликовать новость
-                    </a>
-                </li>
-            </ul>
+            <div class="footer-columns__about">
+                <ul class="list-style-reset">
+                    <li class="footer-columns__about__items footer-columns__about__items__logo">
+                        <a href="">
+                            
+                        </a>
+                    </li>
+                    <li class="footer-columns__about__items">
+                        <a href="">
+                            Об агенстве
+                        </a>
+                    </li>
+                    <li class="footer-columns__about__items">
+                        <a href="">
+                            Контакты
+                        </a>
+                    </li>
+                    <li class="footer-columns__about__items">
+                        <a href="">
+                            Опубликовать новость
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
             <!--  соцсети и контакты -->
-            <ul class="list-style-reset ">
-                <li>
-                    <a href="">VK</a>                 
-                </li>
-                <li>
-                    <a href="">FB</a>
-                </li>
-                <li>
-                    <a href="">TWT</a>
-                </li>
-                <li>
-                    <a href="">INST</a>
-                </li>
-            </ul>
-            <ul class="list-style-reset ">
-                <li>
-                    <a href="tel:8 800 555 35 35" >
-                        8 800 555 35 35
-                    </a>
-                </li>
-                <li>
-                    <a href="mailto: info@agency.ru">
-                        info@agency.ru
-                    </a>
-                </li>
-            </ul>
+            <div class="footer-columns__contacts">
+                <ul class="list-style-reset footer-columns__contacts_row">
+                    <li>
+                        <a href="" class="footer-columns__contacts__social footer-columns__contacts__social_vk"> </a>                 
+                    </li>
+                    <li>
+                        <a href="" class="footer-columns__contacts__social footer-columns__contacts__social_fb"> </a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-columns__contacts__social footer-columns__contacts__social_tw"> </a>
+                    </li>
+                    <li >
+                        <a href="" class="footer-columns__contacts__social footer-columns__contacts__social_inst"> </a>
+                    </li>
+                </ul>
+                <ul class="list-style-reset ">
+                    <li class="footer-columns__contacts__tel">
+                        <a href="tel:8 800 555 35 35" >
+                            8 800 555 35 35
+                        </a>
+                    </li>
+                    <li class="footer-columns__contacts__mail">
+                        <a href="mailto: info@agency.ru">
+                            info@agency.ru
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <!-- копирайт -->
-        <div class="fixed-container">
-            <span>
-            &#xa9 Новостное агенство, 2017-2023 все права защищены
-            </span> 
+        <div class="footer-copyright_border">
+            <div class="fixed-container footer-copyright">
+                <span>
+                    &#xa9 Новостное агенство, 2017-2023 все права защищены
+                </span> 
         </div>
+        </div>
+
     </footer>
 </body>
 </html>
