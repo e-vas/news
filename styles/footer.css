@@ -6,6 +6,8 @@
 
 .footer-columns__nav{
     margin: 20px 0;
+    columns: 2;
+    width: 33%;
 }
 
 /*Колонка с навигацией */
@@ -13,21 +15,19 @@
     display: flex; 
     flex-direction: column;
     flex-wrap: wrap;
-    height: 130px;
-    width: 300px;
+    
 }
 
 
 .footer-columns__nav__list__items{
     line-height: 25px;
-    width: 40%;
     font-size: 14px;
+    
 }
 
 /* колонка об агентстве*/
 .footer-columns__about{
-    height: 130px;
-    width: 300px;
+    width: 33%;
     margin: 20px 0;
 }
 
@@ -50,14 +50,15 @@
 
 /* колонка с контактами */
 .footer-columns__contacts{
-    height: 130px;
-    width: 300px;
+    width: 33%;
     margin: 20px 0;
 }
 
 .footer-columns__contacts_row{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    
     
 }
  
@@ -69,12 +70,14 @@
     background-position-x: center;
     background-position-y: bottom;
     background-repeat: no-repeat;  
-    margin: 0 5px;
+    margin: 0 10px 5px 0; 
+    display: block;
 }
 
 .footer-columns__contacts__social_vk{
     background-image: url(../images/vk.png); 
-    margin: 0 5px 0 0; 
+    margin: 0 10px 5px 0; 
+   
 }
 
 .footer-columns__contacts__social_fb{
@@ -92,7 +95,7 @@
 /*контакты */
 
 .footer-columns__contacts__tel{
-    margin-top: 40px ;
+    margin-top: 30px ;
     padding-left: 30px;
     background-image: url(../images/call-answer.png); 
     background-size: contain;
